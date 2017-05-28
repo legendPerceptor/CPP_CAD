@@ -1,0 +1,5 @@
+"C:\Program Files\JetBrains\CLion 2017.1.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" G:\Cpro\MyCAD
+./GraphicList.cpp./main.csys/libgraphics/exceptio.csys/libgraphics/genlib.csys/libgraphics/graphics.csys/libgraphics/random.csys/libgraphics/simpio.csys/libgraphics/strlib.c
+-- Configuring done
+-- Generating done
+-- Build files have been written to: G:/Cpro/MyCAD/cmake-build-debug

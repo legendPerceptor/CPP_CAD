@@ -1,3 +1,9 @@
-G:/Cpro/MyCAD/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-G:/Cpro/MyCAD/cmake-build-debug/CMakeFiles/MyCAD.dir
+G:/Cpro/MyCAD/cmake-build-debug/CMakeFiles/CPPCAD.dir
 G:/Cpro/MyCAD/cmake-build-debug/CMakeFiles/edit_cache.dir
+G:/Cpro/MyCAD/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+G:/Cpro/MyCAD/cmake-build-debug/sys/CMakeFiles/rebuild_cache.dir
+G:/Cpro/MyCAD/cmake-build-debug/sys/CMakeFiles/sysLib.dir
+G:/Cpro/MyCAD/cmake-build-debug/sys/CMakeFiles/edit_cache.dir
+G:/Cpro/MyCAD/cmake-build-debug/MygraphicLib/CMakeFiles/edit_cache.dir
+G:/Cpro/MyCAD/cmake-build-debug/MygraphicLib/CMakeFiles/MygraphicLib.dir
+G:/Cpro/MyCAD/cmake-build-debug/MygraphicLib/CMakeFiles/rebuild_cache.dir

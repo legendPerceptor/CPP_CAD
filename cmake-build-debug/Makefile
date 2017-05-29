@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = G:\Cpro\MyCAD\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2017.1.2\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
@@ -76,6 +65,17 @@ edit_cache:
 edit_cache/fast: edit_cache
 
 .PHONY : edit_cache/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	"C:\Program Files\JetBrains\CLion 2017.1.2\bin\cmake\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -110,233 +110,70 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named MyCAD
+# Target rules for targets named CPPCAD
 
 # Build rule for target.
-MyCAD: cmake_check_build_system
-	$(MAKE) -f CMakeFiles\Makefile2 MyCAD
-.PHONY : MyCAD
+CPPCAD: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 CPPCAD
+.PHONY : CPPCAD
 
 # fast build rule for target.
-MyCAD/fast:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/build
-.PHONY : MyCAD/fast
+CPPCAD/fast:
+	$(MAKE) -f CMakeFiles\CPPCAD.dir\build.make CMakeFiles/CPPCAD.dir/build
+.PHONY : CPPCAD/fast
 
-GraphicList.obj: GraphicList.cpp.obj
+#=============================================================================
+# Target rules for targets named sysLib
 
-.PHONY : GraphicList.obj
+# Build rule for target.
+sysLib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 sysLib
+.PHONY : sysLib
 
-# target to build an object file
-GraphicList.cpp.obj:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/GraphicList.cpp.obj
-.PHONY : GraphicList.cpp.obj
+# fast build rule for target.
+sysLib/fast:
+	$(MAKE) -f sys\CMakeFiles\sysLib.dir\build.make sys/CMakeFiles/sysLib.dir/build
+.PHONY : sysLib/fast
 
-GraphicList.i: GraphicList.cpp.i
+#=============================================================================
+# Target rules for targets named MygraphicLib
 
-.PHONY : GraphicList.i
+# Build rule for target.
+MygraphicLib: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 MygraphicLib
+.PHONY : MygraphicLib
 
-# target to preprocess a source file
-GraphicList.cpp.i:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/GraphicList.cpp.i
-.PHONY : GraphicList.cpp.i
+# fast build rule for target.
+MygraphicLib/fast:
+	$(MAKE) -f MygraphicLib\CMakeFiles\MygraphicLib.dir\build.make MygraphicLib/CMakeFiles/MygraphicLib.dir/build
+.PHONY : MygraphicLib/fast
 
-GraphicList.s: GraphicList.cpp.s
-
-.PHONY : GraphicList.s
-
-# target to generate assembly for a file
-GraphicList.cpp.s:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/GraphicList.cpp.s
-.PHONY : GraphicList.cpp.s
-
-main.obj: main.c.obj
+main.obj: main.cpp.obj
 
 .PHONY : main.obj
 
 # target to build an object file
-main.c.obj:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/main.c.obj
-.PHONY : main.c.obj
+main.cpp.obj:
+	$(MAKE) -f CMakeFiles\CPPCAD.dir\build.make CMakeFiles/CPPCAD.dir/main.cpp.obj
+.PHONY : main.cpp.obj
 
-main.i: main.c.i
+main.i: main.cpp.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.c.i:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/main.c.i
-.PHONY : main.c.i
+main.cpp.i:
+	$(MAKE) -f CMakeFiles\CPPCAD.dir\build.make CMakeFiles/CPPCAD.dir/main.cpp.i
+.PHONY : main.cpp.i
 
-main.s: main.c.s
+main.s: main.cpp.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.c.s:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/main.c.s
-.PHONY : main.c.s
-
-sys/libgraphics/exceptio.obj: sys/libgraphics/exceptio.c.obj
-
-.PHONY : sys/libgraphics/exceptio.obj
-
-# target to build an object file
-sys/libgraphics/exceptio.c.obj:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj
-.PHONY : sys/libgraphics/exceptio.c.obj
-
-sys/libgraphics/exceptio.i: sys/libgraphics/exceptio.c.i
-
-.PHONY : sys/libgraphics/exceptio.i
-
-# target to preprocess a source file
-sys/libgraphics/exceptio.c.i:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.i
-.PHONY : sys/libgraphics/exceptio.c.i
-
-sys/libgraphics/exceptio.s: sys/libgraphics/exceptio.c.s
-
-.PHONY : sys/libgraphics/exceptio.s
-
-# target to generate assembly for a file
-sys/libgraphics/exceptio.c.s:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.s
-.PHONY : sys/libgraphics/exceptio.c.s
-
-sys/libgraphics/genlib.obj: sys/libgraphics/genlib.c.obj
-
-.PHONY : sys/libgraphics/genlib.obj
-
-# target to build an object file
-sys/libgraphics/genlib.c.obj:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj
-.PHONY : sys/libgraphics/genlib.c.obj
-
-sys/libgraphics/genlib.i: sys/libgraphics/genlib.c.i
-
-.PHONY : sys/libgraphics/genlib.i
-
-# target to preprocess a source file
-sys/libgraphics/genlib.c.i:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.i
-.PHONY : sys/libgraphics/genlib.c.i
-
-sys/libgraphics/genlib.s: sys/libgraphics/genlib.c.s
-
-.PHONY : sys/libgraphics/genlib.s
-
-# target to generate assembly for a file
-sys/libgraphics/genlib.c.s:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.s
-.PHONY : sys/libgraphics/genlib.c.s
-
-sys/libgraphics/graphics.obj: sys/libgraphics/graphics.c.obj
-
-.PHONY : sys/libgraphics/graphics.obj
-
-# target to build an object file
-sys/libgraphics/graphics.c.obj:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj
-.PHONY : sys/libgraphics/graphics.c.obj
-
-sys/libgraphics/graphics.i: sys/libgraphics/graphics.c.i
-
-.PHONY : sys/libgraphics/graphics.i
-
-# target to preprocess a source file
-sys/libgraphics/graphics.c.i:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.i
-.PHONY : sys/libgraphics/graphics.c.i
-
-sys/libgraphics/graphics.s: sys/libgraphics/graphics.c.s
-
-.PHONY : sys/libgraphics/graphics.s
-
-# target to generate assembly for a file
-sys/libgraphics/graphics.c.s:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.s
-.PHONY : sys/libgraphics/graphics.c.s
-
-sys/libgraphics/random.obj: sys/libgraphics/random.c.obj
-
-.PHONY : sys/libgraphics/random.obj
-
-# target to build an object file
-sys/libgraphics/random.c.obj:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj
-.PHONY : sys/libgraphics/random.c.obj
-
-sys/libgraphics/random.i: sys/libgraphics/random.c.i
-
-.PHONY : sys/libgraphics/random.i
-
-# target to preprocess a source file
-sys/libgraphics/random.c.i:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.i
-.PHONY : sys/libgraphics/random.c.i
-
-sys/libgraphics/random.s: sys/libgraphics/random.c.s
-
-.PHONY : sys/libgraphics/random.s
-
-# target to generate assembly for a file
-sys/libgraphics/random.c.s:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.s
-.PHONY : sys/libgraphics/random.c.s
-
-sys/libgraphics/simpio.obj: sys/libgraphics/simpio.c.obj
-
-.PHONY : sys/libgraphics/simpio.obj
-
-# target to build an object file
-sys/libgraphics/simpio.c.obj:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj
-.PHONY : sys/libgraphics/simpio.c.obj
-
-sys/libgraphics/simpio.i: sys/libgraphics/simpio.c.i
-
-.PHONY : sys/libgraphics/simpio.i
-
-# target to preprocess a source file
-sys/libgraphics/simpio.c.i:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.i
-.PHONY : sys/libgraphics/simpio.c.i
-
-sys/libgraphics/simpio.s: sys/libgraphics/simpio.c.s
-
-.PHONY : sys/libgraphics/simpio.s
-
-# target to generate assembly for a file
-sys/libgraphics/simpio.c.s:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.s
-.PHONY : sys/libgraphics/simpio.c.s
-
-sys/libgraphics/strlib.obj: sys/libgraphics/strlib.c.obj
-
-.PHONY : sys/libgraphics/strlib.obj
-
-# target to build an object file
-sys/libgraphics/strlib.c.obj:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj
-.PHONY : sys/libgraphics/strlib.c.obj
-
-sys/libgraphics/strlib.i: sys/libgraphics/strlib.c.i
-
-.PHONY : sys/libgraphics/strlib.i
-
-# target to preprocess a source file
-sys/libgraphics/strlib.c.i:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.i
-.PHONY : sys/libgraphics/strlib.c.i
-
-sys/libgraphics/strlib.s: sys/libgraphics/strlib.c.s
-
-.PHONY : sys/libgraphics/strlib.s
-
-# target to generate assembly for a file
-sys/libgraphics/strlib.c.s:
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.s
-.PHONY : sys/libgraphics/strlib.c.s
+main.cpp.s:
+	$(MAKE) -f CMakeFiles\CPPCAD.dir\build.make CMakeFiles/CPPCAD.dir/main.cpp.s
+.PHONY : main.cpp.s
 
 # Help Target
 help:
@@ -344,33 +181,14 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
-	@echo ... rebuild_cache
-	@echo ... MyCAD
+	@echo ... CPPCAD
 	@echo ... edit_cache
-	@echo ... GraphicList.obj
-	@echo ... GraphicList.i
-	@echo ... GraphicList.s
+	@echo ... rebuild_cache
+	@echo ... sysLib
+	@echo ... MygraphicLib
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... sys/libgraphics/exceptio.obj
-	@echo ... sys/libgraphics/exceptio.i
-	@echo ... sys/libgraphics/exceptio.s
-	@echo ... sys/libgraphics/genlib.obj
-	@echo ... sys/libgraphics/genlib.i
-	@echo ... sys/libgraphics/genlib.s
-	@echo ... sys/libgraphics/graphics.obj
-	@echo ... sys/libgraphics/graphics.i
-	@echo ... sys/libgraphics/graphics.s
-	@echo ... sys/libgraphics/random.obj
-	@echo ... sys/libgraphics/random.i
-	@echo ... sys/libgraphics/random.s
-	@echo ... sys/libgraphics/simpio.obj
-	@echo ... sys/libgraphics/simpio.i
-	@echo ... sys/libgraphics/simpio.s
-	@echo ... sys/libgraphics/strlib.obj
-	@echo ... sys/libgraphics/strlib.i
-	@echo ... sys/libgraphics/strlib.s
 .PHONY : help
 
 

@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+../MygraphicLib/include/GraphicList.h
+windows.h
+-
+
 ../sys/include/extgraph.h
 genlib.h
 ../sys/include/genlib.h
@@ -21,6 +25,8 @@ stdlib.h
 -
 stddef.h
 -
+windef.h
+-
 
 ../sys/include/graphics.h
 
@@ -28,13 +34,15 @@ stddef.h
 genlib.h
 ../sys/include/genlib.h
 
-G:/Cpro/MyCAD/GraphicList.cpp
-GraphicList.h
-G:/Cpro/MyCAD/GraphicList.h
+G:/Cpro/MyCAD/main.cpp
 graphics.h
 G:/Cpro/MyCAD/graphics.h
 extgraph.h
 G:/Cpro/MyCAD/extgraph.h
+string
+-
+GraphicList.h
+G:/Cpro/MyCAD/GraphicList.h
 genlib.h
 G:/Cpro/MyCAD/genlib.h
 simpio.h
@@ -62,9 +70,5 @@ ole2.h
 ocidl.h
 -
 winuser.h
--
-
-G:/Cpro/MyCAD/GraphicList.h
-windows.h
 -
 

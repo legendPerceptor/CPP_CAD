@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="CPPCAD"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\sys\;CMake Files\MygraphicLib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="G:/Cpro/MyCAD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPPCAD">
+				<Option output="G:/Cpro/MyCAD/cmake-build-debug/CPPCAD.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Cpro/MyCAD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/Cpro/MyCAD/sys/include"/>
+					<Add directory="G:/Cpro/MyCAD/MygraphicLib/include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPPCAD"/>
+					<CompileFile command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="CPPCAD/fast">
+				<Option output="G:/Cpro/MyCAD/cmake-build-debug/CPPCAD.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Cpro/MyCAD/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/Cpro/MyCAD/sys/include"/>
+					<Add directory="G:/Cpro/MyCAD/MygraphicLib/include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 CPPCAD/fast"/>
+					<CompileFile command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="G:/Cpro/MyCAD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="G:/Cpro/MyCAD/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sysLib">
+				<Option output="G:/Cpro/MyCAD/cmake-build-debug/sys/libsysLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Cpro/MyCAD/cmake-build-debug/sys"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/Cpro/MyCAD/sys/include"/>
+					<Add directory="G:/Cpro/MyCAD/MygraphicLib/include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/sys/Makefile&quot;  VERBOSE=1 sysLib"/>
+					<CompileFile command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/sys/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/sys/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/sys/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sysLib/fast">
+				<Option output="G:/Cpro/MyCAD/cmake-build-debug/sys/libsysLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Cpro/MyCAD/cmake-build-debug/sys"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/Cpro/MyCAD/sys/include"/>
+					<Add directory="G:/Cpro/MyCAD/MygraphicLib/include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/sys/Makefile&quot;  VERBOSE=1 sysLib/fast"/>
+					<CompileFile command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/sys/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/sys/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/sys/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MygraphicLib">
+				<Option output="G:/Cpro/MyCAD/cmake-build-debug/MygraphicLib/libMygraphicLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Cpro/MyCAD/cmake-build-debug/MygraphicLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/Cpro/MyCAD/sys/include"/>
+					<Add directory="G:/Cpro/MyCAD/MygraphicLib/include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/MygraphicLib/Makefile&quot;  VERBOSE=1 MygraphicLib"/>
+					<CompileFile command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/MygraphicLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/MygraphicLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/MygraphicLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="MygraphicLib/fast">
+				<Option output="G:/Cpro/MyCAD/cmake-build-debug/MygraphicLib/libMygraphicLib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="G:/Cpro/MyCAD/cmake-build-debug/MygraphicLib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="G:/Cpro/MyCAD/sys/include"/>
+					<Add directory="G:/Cpro/MyCAD/MygraphicLib/include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/../../../../include"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/include-fixed"/>
+					<Add directory="c:\mingw2017\bin\../lib/gcc/mingw32/5.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/MygraphicLib/Makefile&quot;  VERBOSE=1 MygraphicLib/fast"/>
+					<CompileFile command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/MygraphicLib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/MygraphicLib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW2017/bin/mingw32-make.exe -f &quot;G:/Cpro/MyCAD/cmake-build-debug/MygraphicLib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="G:/Cpro/MyCAD/MygraphicLib/include/GraphicList.h">
+			<Option target="MygraphicLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/MygraphicLib/src/CharEvent.cpp">
+			<Option target="MygraphicLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/MygraphicLib/src/GraphicList.cpp">
+			<Option target="MygraphicLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/MygraphicLib/src/KeyBoardEvent.cpp">
+			<Option target="MygraphicLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/MygraphicLib/src/MouseEvent.cpp">
+			<Option target="MygraphicLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/MygraphicLib/src/TimerEvent.cpp">
+			<Option target="MygraphicLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/main.cpp">
+			<Option target="CPPCAD"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/sys/include/exception.h">
+			<Option target="sysLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/sys/include/extgraph.h">
+			<Option target="sysLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/sys/include/gcalloc.h">
+			<Option target="sysLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/sys/include/genlib.h">
+			<Option target="sysLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/sys/include/graphics.h">
+			<Option target="sysLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/sys/include/random.h">
+			<Option target="sysLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/sys/include/simpio.h">
+			<Option target="sysLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/sys/include/strlib.h">
+			<Option target="sysLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/sys/libgraphics/exceptio.cpp">
+			<Option target="sysLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/sys/libgraphics/genlib.cpp">
+			<Option target="sysLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/sys/libgraphics/graphics.cpp">
+			<Option target="sysLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/sys/libgraphics/random.cpp">
+			<Option target="sysLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/sys/libgraphics/simpio.cpp">
+			<Option target="sysLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/sys/libgraphics/strlib.cpp">
+			<Option target="sysLib"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/sys/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\sys\"/>
+		</Unit>
+		<Unit filename="G:/Cpro/MyCAD/MygraphicLib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\MygraphicLib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

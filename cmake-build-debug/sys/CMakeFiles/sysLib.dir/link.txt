@@ -1,0 +1,2 @@
+C:\MinGW2017\bin\ar.exe qc libsysLib.a  CMakeFiles/sysLib.dir/libgraphics/exceptio.cpp.obj CMakeFiles/sysLib.dir/libgraphics/genlib.cpp.obj CMakeFiles/sysLib.dir/libgraphics/graphics.cpp.obj CMakeFiles/sysLib.dir/libgraphics/random.cpp.obj CMakeFiles/sysLib.dir/libgraphics/simpio.cpp.obj CMakeFiles/sysLib.dir/libgraphics/strlib.cpp.obj
+C:\MinGW2017\bin\ranlib.exe libsysLib.a

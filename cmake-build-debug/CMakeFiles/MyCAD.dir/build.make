@@ -56,233 +56,46 @@ include CMakeFiles/MyCAD.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/MyCAD.dir/flags.make
 
-CMakeFiles/MyCAD.dir/GraphicList.cpp.obj: CMakeFiles/MyCAD.dir/flags.make
-CMakeFiles/MyCAD.dir/GraphicList.cpp.obj: CMakeFiles/MyCAD.dir/includes_CXX.rsp
-CMakeFiles/MyCAD.dir/GraphicList.cpp.obj: ../GraphicList.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Cpro\MyCAD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyCAD.dir/GraphicList.cpp.obj"
-	C:\MinGW2017\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyCAD.dir\GraphicList.cpp.obj -c G:\Cpro\MyCAD\GraphicList.cpp
+CMakeFiles/MyCAD.dir/main.cpp.obj: CMakeFiles/MyCAD.dir/flags.make
+CMakeFiles/MyCAD.dir/main.cpp.obj: CMakeFiles/MyCAD.dir/includes_CXX.rsp
+CMakeFiles/MyCAD.dir/main.cpp.obj: ../main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Cpro\MyCAD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MyCAD.dir/main.cpp.obj"
+	C:\MinGW2017\bin\g++.exe   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\MyCAD.dir\main.cpp.obj -c G:\Cpro\MyCAD\main.cpp
 
-CMakeFiles/MyCAD.dir/GraphicList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyCAD.dir/GraphicList.cpp.i"
-	C:\MinGW2017\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Cpro\MyCAD\GraphicList.cpp > CMakeFiles\MyCAD.dir\GraphicList.cpp.i
+CMakeFiles/MyCAD.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MyCAD.dir/main.cpp.i"
+	C:\MinGW2017\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E G:\Cpro\MyCAD\main.cpp > CMakeFiles\MyCAD.dir\main.cpp.i
 
-CMakeFiles/MyCAD.dir/GraphicList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyCAD.dir/GraphicList.cpp.s"
-	C:\MinGW2017\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Cpro\MyCAD\GraphicList.cpp -o CMakeFiles\MyCAD.dir\GraphicList.cpp.s
+CMakeFiles/MyCAD.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MyCAD.dir/main.cpp.s"
+	C:\MinGW2017\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S G:\Cpro\MyCAD\main.cpp -o CMakeFiles\MyCAD.dir\main.cpp.s
 
-CMakeFiles/MyCAD.dir/GraphicList.cpp.obj.requires:
+CMakeFiles/MyCAD.dir/main.cpp.obj.requires:
 
-.PHONY : CMakeFiles/MyCAD.dir/GraphicList.cpp.obj.requires
+.PHONY : CMakeFiles/MyCAD.dir/main.cpp.obj.requires
 
-CMakeFiles/MyCAD.dir/GraphicList.cpp.obj.provides: CMakeFiles/MyCAD.dir/GraphicList.cpp.obj.requires
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/GraphicList.cpp.obj.provides.build
-.PHONY : CMakeFiles/MyCAD.dir/GraphicList.cpp.obj.provides
+CMakeFiles/MyCAD.dir/main.cpp.obj.provides: CMakeFiles/MyCAD.dir/main.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/main.cpp.obj.provides.build
+.PHONY : CMakeFiles/MyCAD.dir/main.cpp.obj.provides
 
-CMakeFiles/MyCAD.dir/GraphicList.cpp.obj.provides.build: CMakeFiles/MyCAD.dir/GraphicList.cpp.obj
-
-
-CMakeFiles/MyCAD.dir/main.c.obj: CMakeFiles/MyCAD.dir/flags.make
-CMakeFiles/MyCAD.dir/main.c.obj: CMakeFiles/MyCAD.dir/includes_C.rsp
-CMakeFiles/MyCAD.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Cpro\MyCAD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/MyCAD.dir/main.c.obj"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\MyCAD.dir\main.c.obj   -c G:\Cpro\MyCAD\main.c
-
-CMakeFiles/MyCAD.dir/main.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyCAD.dir/main.c.i"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\Cpro\MyCAD\main.c > CMakeFiles\MyCAD.dir\main.c.i
-
-CMakeFiles/MyCAD.dir/main.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyCAD.dir/main.c.s"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Cpro\MyCAD\main.c -o CMakeFiles\MyCAD.dir\main.c.s
-
-CMakeFiles/MyCAD.dir/main.c.obj.requires:
-
-.PHONY : CMakeFiles/MyCAD.dir/main.c.obj.requires
-
-CMakeFiles/MyCAD.dir/main.c.obj.provides: CMakeFiles/MyCAD.dir/main.c.obj.requires
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/main.c.obj.provides.build
-.PHONY : CMakeFiles/MyCAD.dir/main.c.obj.provides
-
-CMakeFiles/MyCAD.dir/main.c.obj.provides.build: CMakeFiles/MyCAD.dir/main.c.obj
-
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj: CMakeFiles/MyCAD.dir/flags.make
-CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj: CMakeFiles/MyCAD.dir/includes_C.rsp
-CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj: ../sys/libgraphics/exceptio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Cpro\MyCAD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\MyCAD.dir\sys\libgraphics\exceptio.c.obj   -c G:\Cpro\MyCAD\sys\libgraphics\exceptio.c
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.i"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\Cpro\MyCAD\sys\libgraphics\exceptio.c > CMakeFiles\MyCAD.dir\sys\libgraphics\exceptio.c.i
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.s"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Cpro\MyCAD\sys\libgraphics\exceptio.c -o CMakeFiles\MyCAD.dir\sys\libgraphics\exceptio.c.s
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj.requires:
-
-.PHONY : CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj.requires
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj.provides: CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj.requires
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj.provides.build
-.PHONY : CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj.provides
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj.provides.build: CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj
-
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj: CMakeFiles/MyCAD.dir/flags.make
-CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj: CMakeFiles/MyCAD.dir/includes_C.rsp
-CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj: ../sys/libgraphics/genlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Cpro\MyCAD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\MyCAD.dir\sys\libgraphics\genlib.c.obj   -c G:\Cpro\MyCAD\sys\libgraphics\genlib.c
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.i"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\Cpro\MyCAD\sys\libgraphics\genlib.c > CMakeFiles\MyCAD.dir\sys\libgraphics\genlib.c.i
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.s"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Cpro\MyCAD\sys\libgraphics\genlib.c -o CMakeFiles\MyCAD.dir\sys\libgraphics\genlib.c.s
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj.requires:
-
-.PHONY : CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj.requires
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj.provides: CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj.requires
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj.provides.build
-.PHONY : CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj.provides
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj.provides.build: CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj
-
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj: CMakeFiles/MyCAD.dir/flags.make
-CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj: CMakeFiles/MyCAD.dir/includes_C.rsp
-CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj: ../sys/libgraphics/graphics.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Cpro\MyCAD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\MyCAD.dir\sys\libgraphics\graphics.c.obj   -c G:\Cpro\MyCAD\sys\libgraphics\graphics.c
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.i"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\Cpro\MyCAD\sys\libgraphics\graphics.c > CMakeFiles\MyCAD.dir\sys\libgraphics\graphics.c.i
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.s"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Cpro\MyCAD\sys\libgraphics\graphics.c -o CMakeFiles\MyCAD.dir\sys\libgraphics\graphics.c.s
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj.requires:
-
-.PHONY : CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj.requires
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj.provides: CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj.requires
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj.provides.build
-.PHONY : CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj.provides
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj.provides.build: CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj
-
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj: CMakeFiles/MyCAD.dir/flags.make
-CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj: CMakeFiles/MyCAD.dir/includes_C.rsp
-CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj: ../sys/libgraphics/random.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Cpro\MyCAD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\MyCAD.dir\sys\libgraphics\random.c.obj   -c G:\Cpro\MyCAD\sys\libgraphics\random.c
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.i"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\Cpro\MyCAD\sys\libgraphics\random.c > CMakeFiles\MyCAD.dir\sys\libgraphics\random.c.i
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.s"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Cpro\MyCAD\sys\libgraphics\random.c -o CMakeFiles\MyCAD.dir\sys\libgraphics\random.c.s
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj.requires:
-
-.PHONY : CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj.requires
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj.provides: CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj.requires
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj.provides.build
-.PHONY : CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj.provides
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj.provides.build: CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj
-
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj: CMakeFiles/MyCAD.dir/flags.make
-CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj: CMakeFiles/MyCAD.dir/includes_C.rsp
-CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj: ../sys/libgraphics/simpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Cpro\MyCAD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\MyCAD.dir\sys\libgraphics\simpio.c.obj   -c G:\Cpro\MyCAD\sys\libgraphics\simpio.c
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.i"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\Cpro\MyCAD\sys\libgraphics\simpio.c > CMakeFiles\MyCAD.dir\sys\libgraphics\simpio.c.i
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.s"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Cpro\MyCAD\sys\libgraphics\simpio.c -o CMakeFiles\MyCAD.dir\sys\libgraphics\simpio.c.s
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj.requires:
-
-.PHONY : CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj.requires
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj.provides: CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj.requires
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj.provides.build
-.PHONY : CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj.provides
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj.provides.build: CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj
-
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj: CMakeFiles/MyCAD.dir/flags.make
-CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj: CMakeFiles/MyCAD.dir/includes_C.rsp
-CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj: ../sys/libgraphics/strlib.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=G:\Cpro\MyCAD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\MyCAD.dir\sys\libgraphics\strlib.c.obj   -c G:\Cpro\MyCAD\sys\libgraphics\strlib.c
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.i"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E G:\Cpro\MyCAD\sys\libgraphics\strlib.c > CMakeFiles\MyCAD.dir\sys\libgraphics\strlib.c.i
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.s"
-	C:\MinGW2017\bin\gcc.exe  $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S G:\Cpro\MyCAD\sys\libgraphics\strlib.c -o CMakeFiles\MyCAD.dir\sys\libgraphics\strlib.c.s
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj.requires:
-
-.PHONY : CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj.requires
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj.provides: CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj.requires
-	$(MAKE) -f CMakeFiles\MyCAD.dir\build.make CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj.provides.build
-.PHONY : CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj.provides
-
-CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj.provides.build: CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj
+CMakeFiles/MyCAD.dir/main.cpp.obj.provides.build: CMakeFiles/MyCAD.dir/main.cpp.obj
 
 
 # Object files for target MyCAD
 MyCAD_OBJECTS = \
-"CMakeFiles/MyCAD.dir/GraphicList.cpp.obj" \
-"CMakeFiles/MyCAD.dir/main.c.obj" \
-"CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj" \
-"CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj" \
-"CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj" \
-"CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj" \
-"CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj" \
-"CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj"
+"CMakeFiles/MyCAD.dir/main.cpp.obj"
 
 # External object files for target MyCAD
 MyCAD_EXTERNAL_OBJECTS =
 
-MyCAD.exe: CMakeFiles/MyCAD.dir/GraphicList.cpp.obj
-MyCAD.exe: CMakeFiles/MyCAD.dir/main.c.obj
-MyCAD.exe: CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj
-MyCAD.exe: CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj
-MyCAD.exe: CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj
-MyCAD.exe: CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj
-MyCAD.exe: CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj
-MyCAD.exe: CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj
+MyCAD.exe: CMakeFiles/MyCAD.dir/main.cpp.obj
 MyCAD.exe: CMakeFiles/MyCAD.dir/build.make
+MyCAD.exe: sys/libsysLib.a
+MyCAD.exe: MygraphicLib/libMygraphicLib.a
 MyCAD.exe: CMakeFiles/MyCAD.dir/linklibs.rsp
 MyCAD.exe: CMakeFiles/MyCAD.dir/objects1.rsp
 MyCAD.exe: CMakeFiles/MyCAD.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\Cpro\MyCAD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable MyCAD.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=G:\Cpro\MyCAD\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable MyCAD.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\MyCAD.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -290,14 +103,7 @@ CMakeFiles/MyCAD.dir/build: MyCAD.exe
 
 .PHONY : CMakeFiles/MyCAD.dir/build
 
-CMakeFiles/MyCAD.dir/requires: CMakeFiles/MyCAD.dir/GraphicList.cpp.obj.requires
-CMakeFiles/MyCAD.dir/requires: CMakeFiles/MyCAD.dir/main.c.obj.requires
-CMakeFiles/MyCAD.dir/requires: CMakeFiles/MyCAD.dir/sys/libgraphics/exceptio.c.obj.requires
-CMakeFiles/MyCAD.dir/requires: CMakeFiles/MyCAD.dir/sys/libgraphics/genlib.c.obj.requires
-CMakeFiles/MyCAD.dir/requires: CMakeFiles/MyCAD.dir/sys/libgraphics/graphics.c.obj.requires
-CMakeFiles/MyCAD.dir/requires: CMakeFiles/MyCAD.dir/sys/libgraphics/random.c.obj.requires
-CMakeFiles/MyCAD.dir/requires: CMakeFiles/MyCAD.dir/sys/libgraphics/simpio.c.obj.requires
-CMakeFiles/MyCAD.dir/requires: CMakeFiles/MyCAD.dir/sys/libgraphics/strlib.c.obj.requires
+CMakeFiles/MyCAD.dir/requires: CMakeFiles/MyCAD.dir/main.cpp.obj.requires
 
 .PHONY : CMakeFiles/MyCAD.dir/requires
 

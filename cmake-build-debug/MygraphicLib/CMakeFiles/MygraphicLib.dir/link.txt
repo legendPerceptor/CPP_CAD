@@ -1,0 +1,2 @@
+C:\MinGW2017\bin\ar.exe qc libMygraphicLib.a  CMakeFiles/MygraphicLib.dir/src/CharEvent.cpp.obj CMakeFiles/MygraphicLib.dir/src/GraphicList.cpp.obj CMakeFiles/MygraphicLib.dir/src/KeyBoardEvent.cpp.obj CMakeFiles/MygraphicLib.dir/src/MouseEvent.cpp.obj CMakeFiles/MygraphicLib.dir/src/TimerEvent.cpp.obj
+C:\MinGW2017\bin\ranlib.exe libMygraphicLib.a

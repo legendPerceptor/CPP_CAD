@@ -127,7 +127,7 @@ CMAKE_OBJCOPY:FILEPATH=C:/MinGW2017/bin/objcopy.exe
 CMAKE_OBJDUMP:FILEPATH=C:/MinGW2017/bin/objdump.exe
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=MyCAD
+CMAKE_PROJECT_NAME:STATIC=CPPCAD
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=C:/MinGW2017/bin/ranlib.exe
@@ -188,10 +188,19 @@ CMAKE_STRIP:FILEPATH=C:/MinGW2017/bin/strip.exe
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //Value Computed by CMake
+CPPCAD_BINARY_DIR:STATIC=G:/Cpro/MyCAD/cmake-build-debug
+
+//Value Computed by CMake
+CPPCAD_SOURCE_DIR:STATIC=G:/Cpro/MyCAD
+
+//Value Computed by CMake
 MyCAD_BINARY_DIR:STATIC=G:/Cpro/MyCAD/cmake-build-debug
 
 //Value Computed by CMake
 MyCAD_SOURCE_DIR:STATIC=G:/Cpro/MyCAD
+
+//Dependencies for target
+MygraphicLib_LIB_DEPENDS:STATIC=
 
 //Dependencies for target
 sysLib_LIB_DEPENDS:STATIC=
@@ -295,7 +304,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

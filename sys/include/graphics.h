@@ -185,5 +185,5 @@ void cancelTimer(int id);
 //double GetCursordelta(int mode,char* text);
 //void SetTextRegion(RECT *rp, double x, double y,string text);//line :1609
 
-
+void GetWholeWhite();
 #endif

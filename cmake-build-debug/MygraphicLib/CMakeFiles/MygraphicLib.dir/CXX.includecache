@@ -93,6 +93,8 @@ GraphicList.h
 G:/Cpro/MyCAD/MygraphicLib/src/GraphicList.h
 extgraph.h
 G:/Cpro/MyCAD/MygraphicLib/src/extgraph.h
+iostream
+-
 
 G:/Cpro/MyCAD/MygraphicLib/src/TimerEvent.cpp
 GraphicList.h

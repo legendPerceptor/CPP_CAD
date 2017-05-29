@@ -1242,7 +1242,9 @@ static void DisplayClear(void)
     InvalidateRect(graphicsWindow, &r, TRUE);
     BitBlt(osdc, 0, 0, pixelWidth, pixelHeight, osdc, 0, 0, WHITENESS);
 }
-
+void GetWholeWhite(){
+    DisplayClear();
+}
 /*
  * Function: PrepareToDraw
  * Usage: PrepareToDraw();

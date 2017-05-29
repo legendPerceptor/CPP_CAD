@@ -35,6 +35,8 @@ namespace MyGraphics{
 /*extern*/ int textlen=0;
 /*extern*/ int WorkingMode=0;
 /*extern*/ GraphicList list;
+    GraphicList* theChosenOne=NULL;
+    BOOL hasChosenOne=FALSE;
 }
 void Main() {
 

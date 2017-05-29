@@ -27,25 +27,31 @@ namespace MyGraphics {
         switch (c) {
             case '\r':
                 if (textlen > 0) {
+                    if(TIMERWORKING){
                     cancelTimer(TIMER_BLINK500);
                     TIMERWORKING = FALSE;
+                    }
                     DrawCursor(TRUE);
                     MovePen(textx, texty);
                     SetEraseMode(TRUE);
                     DrawTextString(text);
                     MovePen(textx, texty);
                     //submit text
-                    MessageBoxA(NULL, text, "The Text", MB_OK);
+                    //MessageBoxA(NULL, text, "The Text", MB_OK);
+                    printf("You have input[%s]",text);
                     textlen = 0;
+                    curintext=0;
                     text[0] = 0;
+                    printf("%lf,%lf\n",textx,texty);
                     //cancelTimer(TIMER_BLINK500);
                     //SetEraseMode(FALSE);
                 }
                 break;
             case 27: /*ESC*/
-                isInputText = FALSE;
-                isMouseDraw = FALSE;
-                FigureType = -1;
+                while(list.next!=NULL){
+                    list.next->remove();
+                }
+                GetWholeWhite();
                 break;
             case 8:
 
@@ -74,9 +80,9 @@ namespace MyGraphics {
                 break;
             default:
 
-                if (isInputText) {
+                if (WorkingMode==TEXTFREEMODE) {
 
-                    str[0] = c;
+                    //str[0] = c;
                     cancelTimer(TIMER_BLINK500);
                     DrawCursor(TRUE);
                     MovePen(textx, texty);
